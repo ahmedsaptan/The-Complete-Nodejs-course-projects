@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c9b9e5-96c4-4d4f-8780-1761982da15f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/utils/forecast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/utils/geocode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vf1yIehyMcP4H8rfWe65AqwGeG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -39,11 +44,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Node.js.app.js (1)">
+  <component name="RunManager" selected="Node.js.http.js">
     <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/weather-app/app.js" working-dir="$PROJECT_DIR$/weather-app">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/notes-app/app.js" working-dir="$PROJECT_DIR$/notes-app">
+      <method v="2" />
+    </configuration>
+    <configuration name="callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/callback.js" working-dir="$PROJECT_DIR$/playground">
+      <method v="2" />
+    </configuration>
+    <configuration name="http.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/http.js" working-dir="$PROJECT_DIR$/playground">
       <method v="2" />
     </configuration>
     <configuration name="node" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
@@ -53,10 +64,14 @@
       <item itemvalue="Node.js.node" />
       <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.app.js (1)" />
+      <item itemvalue="Node.js.callback.js" />
+      <item itemvalue="Node.js.http.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.http.js" />
         <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.callback.js" />
         <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
@@ -83,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577629587381</updated>
-      <workItem from="1577629591288" duration="13643000" />
+      <workItem from="1577629591288" duration="32051000" />
     </task>
     <servers />
   </component>
@@ -103,22 +118,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577642682427" />
-    <state width="1830" height="323" key="GridCell.Tab.0.bottom" timestamp="1577709371266">
+    <state width="1830" height="221" key="GridCell.Tab.0.bottom" timestamp="1577795328717">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="323" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577709371266" />
-    <state width="1830" height="323" key="GridCell.Tab.0.center" timestamp="1577709371264">
+    <state width="1830" height="221" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328717" />
+    <state width="1830" height="221" key="GridCell.Tab.0.center" timestamp="1577795328711">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="323" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577709371264" />
-    <state width="1830" height="323" key="GridCell.Tab.0.left" timestamp="1577709371263">
+    <state width="1830" height="221" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328710" />
+    <state width="1830" height="221" key="GridCell.Tab.0.left" timestamp="1577795328710">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="323" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577709371263" />
-    <state width="1830" height="323" key="GridCell.Tab.0.right" timestamp="1577709371265">
+    <state width="1830" height="221" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328710" />
+    <state width="1830" height="221" key="GridCell.Tab.0.right" timestamp="1577795328716">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="323" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577709371265" />
+    <state width="1830" height="221" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328716" />
     <state width="1830" height="343" key="GridCell.Tab.1.bottom" timestamp="1577644027370">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -167,10 +182,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1830" height="343" key="GridCell.Tab.3.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577644027374" />
-    <state x="482" y="175" key="SettingsEditor" timestamp="1577629962006">
+    <state x="482" y="175" key="SettingsEditor" timestamp="1577731832118">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577629962006" />
+    <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577731832118" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -180,6 +195,12 @@
           <line>3</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/weather-app/app.js</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
