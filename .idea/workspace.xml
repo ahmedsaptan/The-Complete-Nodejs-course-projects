@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c9b9e5-96c4-4d4f-8780-1761982da15f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/playground/callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playground/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/utils/forecast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/utils/geocode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/img/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -36,19 +42,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.14.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Node.js.http.js">
+  <component name="RunManager" selected="Node.js.app.js (2)">
     <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/weather-app/app.js" working-dir="$PROJECT_DIR$/weather-app">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/notes-app/app.js" working-dir="$PROJECT_DIR$/notes-app">
+    <configuration name="app.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web-server/app.js" working-dir="$PROJECT_DIR$/web-server">
       <method v="2" />
     </configuration>
     <configuration name="callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/callback.js" working-dir="$PROJECT_DIR$/playground">
@@ -57,22 +67,27 @@
     <configuration name="http.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/http.js" working-dir="$PROJECT_DIR$/playground">
       <method v="2" />
     </configuration>
+    <configuration name="leetcode.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="node" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.node" />
-      <item itemvalue="Node.js.app.js" />
       <item itemvalue="Node.js.app.js (1)" />
       <item itemvalue="Node.js.callback.js" />
       <item itemvalue="Node.js.http.js" />
+      <item itemvalue="Node.js.app.js (2)" />
+      <item itemvalue="Node.js.leetcode.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.app.js (2)" />
+        <item itemvalue="Node.js.leetcode.js" />
         <item itemvalue="Node.js.http.js" />
         <item itemvalue="Node.js.app.js (1)" />
         <item itemvalue="Node.js.callback.js" />
-        <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -98,12 +113,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577629587381</updated>
-      <workItem from="1577629591288" duration="32051000" />
+      <workItem from="1577629591288" duration="34624000" />
+      <workItem from="1577801938247" duration="5080000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577629712778">
@@ -118,22 +137,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577642682427" />
-    <state width="1830" height="221" key="GridCell.Tab.0.bottom" timestamp="1577795328717">
+    <state width="1830" height="281" key="GridCell.Tab.0.bottom" timestamp="1577809615423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="221" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328717" />
-    <state width="1830" height="221" key="GridCell.Tab.0.center" timestamp="1577795328711">
+    <state width="1830" height="281" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
+    <state width="1830" height="281" key="GridCell.Tab.0.center" timestamp="1577809615423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="221" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328710" />
-    <state width="1830" height="221" key="GridCell.Tab.0.left" timestamp="1577795328710">
+    <state width="1830" height="281" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
+    <state width="1830" height="281" key="GridCell.Tab.0.left" timestamp="1577809615423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="221" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328710" />
-    <state width="1830" height="221" key="GridCell.Tab.0.right" timestamp="1577795328716">
+    <state width="1830" height="281" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
+    <state width="1830" height="281" key="GridCell.Tab.0.right" timestamp="1577809615423">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="221" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577795328716" />
+    <state width="1830" height="281" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
     <state width="1830" height="343" key="GridCell.Tab.1.bottom" timestamp="1577644027370">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -193,14 +212,18 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/notes-app/notes.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/weather-app/app.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode.js</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
