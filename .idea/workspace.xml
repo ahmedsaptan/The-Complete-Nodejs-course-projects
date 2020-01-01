@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c9b9e5-96c4-4d4f-8780-1761982da15f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/models/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routes/task.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/callback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/promises.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/promises.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/mongodb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/src/utils/geocode.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/utils/geocode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/partials/footer.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/partials/header.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/about.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/views/help.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/help.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/views/notFound.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/notFound.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577629587381</updated>
       <workItem from="1577629591288" duration="34624000" />
-      <workItem from="1577801938247" duration="30951000" />
+      <workItem from="1577801938247" duration="42748000" />
     </task>
     <servers />
   </component>
@@ -150,6 +138,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577629712778" />
+    <state x="695" y="357" width="586" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577908142356">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="695" y="357" width="586" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577908142356" />
     <state x="776" y="260" width="424" height="584" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1577629711953">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -226,10 +218,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577731832118" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577823414899">
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577905799446">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1577823414899" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1577905799446" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
