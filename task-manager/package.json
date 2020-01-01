@@ -12,6 +12,7 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "mongodb": "^3.4.1",
-    "mongoose": "^5.8.3"
+    "mongoose": "^5.8.3",
+    "validator": "^12.1.0"
   }
 }

@@ -10,8 +10,11 @@ const geoCode = (address, callback) => {
     }, (error, response) => {
         if (error) {
             callback(chalk.bgRedBright.bgBlack("unable to connect to weather service"), null);
-        } else if(response.body.features.length === 0){
+        } else if(!response.body.features){
+
             callback(chalk.red.bgBlack.inverse("can't found location"), null);
+
+
         } else {
             const data = response.body;
             const place_name = data.features[0].place_name;

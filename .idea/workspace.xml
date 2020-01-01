@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c9b9e5-96c4-4d4f-8780-1761982da15f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/img/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/callback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/promises.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/promises.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/mongodb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/src/utils/geocode.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/utils/geocode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/templates/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/partials/footer.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/templates/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/partials/header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/templates/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/templates/views/help.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/help.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/templates/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-server/templates/views/notFound.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/notFound.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,46 +59,56 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web-server/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.14.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Node.js.app.js (2)">
-    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/weather-app/app.js" working-dir="$PROJECT_DIR$/weather-app">
-      <method v="2" />
-    </configuration>
-    <configuration name="app.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web-server/app.js" working-dir="$PROJECT_DIR$/web-server">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-server/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web-server/src" />
+      <recent name="$PROJECT_DIR$/web-server/templates/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.promises.js">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/web-server/src/app.js" working-dir="$PROJECT_DIR$/web-server">
       <method v="2" />
     </configuration>
     <configuration name="callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/callback.js" working-dir="$PROJECT_DIR$/playground">
       <method v="2" />
     </configuration>
-    <configuration name="http.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/http.js" working-dir="$PROJECT_DIR$/playground">
+    <configuration name="default.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/default.js" working-dir="$PROJECT_DIR$/playground">
       <method v="2" />
     </configuration>
-    <configuration name="leetcode.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/leetcode.js" working-dir="$PROJECT_DIR$">
+    <configuration name="mongodb.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/task-manager/mongodb.js" working-dir="$PROJECT_DIR$/task-manager">
       <method v="2" />
     </configuration>
     <configuration name="node" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="promises.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/playground/promises.js" working-dir="$PROJECT_DIR$/playground">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.node" />
-      <item itemvalue="Node.js.app.js (1)" />
-      <item itemvalue="Node.js.callback.js" />
-      <item itemvalue="Node.js.http.js" />
       <item itemvalue="Node.js.app.js (2)" />
-      <item itemvalue="Node.js.leetcode.js" />
+      <item itemvalue="Node.js.default.js" />
+      <item itemvalue="Node.js.mongodb.js" />
+      <item itemvalue="Node.js.callback.js" />
+      <item itemvalue="Node.js.promises.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.app.js (2)" />
-        <item itemvalue="Node.js.leetcode.js" />
-        <item itemvalue="Node.js.http.js" />
-        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.promises.js" />
         <item itemvalue="Node.js.callback.js" />
+        <item itemvalue="Node.js.mongodb.js" />
+        <item itemvalue="Node.js.default.js" />
+        <item itemvalue="Node.js.app.js (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577629587381</updated>
       <workItem from="1577629591288" duration="34624000" />
-      <workItem from="1577801938247" duration="5080000" />
+      <workItem from="1577801938247" duration="30951000" />
     </task>
     <servers />
   </component>
@@ -137,22 +158,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577642682427" />
-    <state width="1830" height="281" key="GridCell.Tab.0.bottom" timestamp="1577809615423">
+    <state width="1830" height="259" key="GridCell.Tab.0.bottom" timestamp="1577875768308">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="281" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
-    <state width="1830" height="281" key="GridCell.Tab.0.center" timestamp="1577809615423">
+    <state width="1830" height="259" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577875768308" />
+    <state width="1830" height="259" key="GridCell.Tab.0.center" timestamp="1577875768306">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="281" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
-    <state width="1830" height="281" key="GridCell.Tab.0.left" timestamp="1577809615423">
+    <state width="1830" height="259" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577875768306" />
+    <state width="1830" height="259" key="GridCell.Tab.0.left" timestamp="1577875768304">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="281" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
-    <state width="1830" height="281" key="GridCell.Tab.0.right" timestamp="1577809615423">
+    <state width="1830" height="259" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577875768304" />
+    <state width="1830" height="259" key="GridCell.Tab.0.right" timestamp="1577875768307">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="281" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577809615423" />
+    <state width="1830" height="259" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577875768307" />
     <state width="1830" height="343" key="GridCell.Tab.1.bottom" timestamp="1577644027370">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -205,6 +226,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="175" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577731832118" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1577823414899">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1577823414899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
