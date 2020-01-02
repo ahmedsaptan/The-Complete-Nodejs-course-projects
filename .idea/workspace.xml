@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2c9b9e5-96c4-4d4f-8780-1761982da15f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task-manager/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/models/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/routes/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-manager/src/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-manager/src/db/mongoose.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577629587381</updated>
       <workItem from="1577629591288" duration="34624000" />
-      <workItem from="1577801938247" duration="42748000" />
+      <workItem from="1577801938247" duration="44131000" />
     </task>
     <servers />
   </component>
